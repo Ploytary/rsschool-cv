@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ploytary.github.io/rsschool-cv/cv
