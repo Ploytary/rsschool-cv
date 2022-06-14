@@ -1,16 +1,17 @@
 # Dmitrii Grigorev
 **Junior Frontend Developer**
+
 ---
 ### Contact information
 ---
 **Phone:** +8 86 5437832\
 **E-mail:** ploytary.fed@gmail.com\
-**GitHub:** Ploytary\
+**GitHub:** ploytary\
 **Discord:** Firebrand#2236
 ### About Me
 ---
-Print designer who decided to bring more digital and interactivity to my work.\
-Learn a new profession and bring designs to life with my hands.
+A print designer who decided to bring more digital and interactivity to my work.\
+I learn a new profession to bring good designs to life by my own hands.
 ### Skills
 ---
 - HTML5
