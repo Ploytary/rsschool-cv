@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet">
   <title>RS School CV HTML Task</title>
 </head>
 
@@ -11,45 +12,45 @@
       <nav class="page-navigation">
         <ul class="navigation-list">
           <li class="navigation-item"><a class="navigation-link" href="#contacts">Contacts</a></li>
-          <li class="navigation-item"><a class="navigation-link" href="#about-me"></a>About Me</a></li>
-          <li class="navigation-item"><a class="navigation-link" href="#skills"></a>Skills</a></li>
-          <li class="navigation-item"><a class="navigation-link" href="#code-example"></a>Code Example</a></li>
-          <li class="navigation-item"><a class="navigation-link" href="#courses"></a>Courses</a></li>
-          <li class="navigation-item"><a class="navigation-link" href="#languages"></a>Languages</a></li>
-          <li class="navigation-item"><a class="navigation-link" href="#projects"></a>Projects</a></li>
-          <li class="navigation-item"><a class="navigation-link" href="#study-links"></a>Study links</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#about-me">About Me</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#skills">Skills</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#code-example">Code Example</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#courses">Courses</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#languages">Languages</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#projects">Projects</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#study-links">Study links</a></li>
         </ul>
       </nav>
   </header>
 
   <main>
       <h1 class="visually-hidden">Student curriculum vitae</h1>
-      <section class="cv-section image-section">
+      <section class="cv-section image-section ">
         <h2 class="section-title visually-hidden">Author avatar</h2>
         <img src="img/pic-author.png" alt="Author avatar" width="309" height="300">
       </section>
       <section class="cv-section author-name-section">
         <h2 class="section-title visually-hidden">Author name</h2>
-        <p class="section-description author-name-title">Dmitrii Grigorev</p>
+        <p class="section-description author-name-title"><span>D</span>mitrii <span>G</span>rigorev</p>
         <p class="section-description author-name-subtitle">Front-end developer student CV</p>
       </section>
-      <section class="cv-section">
+      <section class="cv-section counter">
         <h2 class="section-title" id="contacts">Contacts</h2>
         <p class="section-description">
-          <span>Phone:</span> +8 86 5437832<br>
-          <span>E-mail:</span>ploytary.fed@gmail.com<br>
-          <span>GitHub:</span>Ploytary<br>
-          <span>Discord:</span>Firebrand#2236<br>
+          <span>Phone: </span> +8 86 5437832<br>
+          <span>E-mail: </span>ploytary.fed@gmail.com<br>
+          <span>GitHub: </span>Ploytary<br>
+          <span>Discord: </span>Firebrand#2236<br>
         </p>
       </section>
-      <section class="cv-section" id="about-me">
+      <section class="cv-section counter" id="about-me">
         <h2 class="section-title">About Me</h2>
         <p class="section-description">
           A print designer who decided to bring more digital and interactivity to my work.
           I learn a new profession to bring good designs to life by my own hands.
         </p>
       </section>
-      <section class="cv-section" id="skills">
+      <section class="cv-section counter" id="skills">
         <h2 class="section-title">Skills</h2>
         <ul class="skill-list">
           <li class="skill-list-item">HTML5</li>
@@ -58,52 +59,50 @@
           <li class="skill-list-item">Adobe Photoshop, Illustrator, InDesign, CorelDraw, Figma</li>
         </ul>
       </section>
-      <section class="cv-section" id="code-example">
+      <section class="cv-section counter" id="code-example">
         <h2 class="section-title">Code Example</h2>
-        <p class="section-description">
-          <pre>
-            function myFunction(a, b) {
-              return a * b;
-              }
-              var x = myFunction(4, 3);
-          </pre>
-        </p>
+        <pre class="section-description">
+          <code>
+function myFunction(a, b) {
+  return a * b;
+  }
+var x = myFunction(4, 3);
+          </code>
+        </pre>
       </section>
-      <section class="cv-section" id="courses">
+      <section class="cv-section counter" id="courses">
         <h2 class="section-title">Courses</h2>
         <ul class="courses-list">
           <li class="courses-list-item">HTML Academy - Front-end developer (in progress)</li>
           <li class="courses-list-item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
         </ul>
       </section>
-      <section class="cv-section" id="languages">
+      <section class="cv-section counter" id="languages">
         <h2 class="section-title">Languages</h2>
         <ul class="lang-list">
           <li class="lang-list-item">English - Elementary А2</li>
           <li class="lang-list-item">Russian - Native</li>
         </ul>
       </section>
-      <section class="cv-section" id="projects">
+      <section class="cv-section counter" id="projects">
         <h2 class="section-title">Projects</h2>
         <ul class="projects-list">
-          <li class="projects-list-item"><a href="#" class="project-link">student project #1</a></li>
-          <li class="projects-list-item"><a href="#" class="project-link">student project #2</a></li>
-          <li class="projects-list-item"><a href="#" class="project-link">student project #3</a></li>
-          <li class="projects-list-item"><a href="#" class="project-link">student project #4</a></li>
-          <li class="projects-list-item"><a href="#" class="project-link">student project #5</a></li>
+          <li class="projects-list-item">student <a class="projects-list-link" href="#">project #1</a></li>
+          <li class="projects-list-item">student <a class="projects-list-link" href="#">project #2</a></li>
+          <li class="projects-list-item">student <a class="projects-list-link" href="#">project #3</a></li>
+          <li class="projects-list-item">student <a class="projects-list-link" href="#">project #4</a></li>
+          <li class="projects-list-item">student <a class="projects-list-link" href="#">project #5</a></li>
         </ul>
       </section>
-      <section class="cv-section" id="study-links">
+      <section class="cv-section counter" id="study-links">
         <h2 class="section-title">Study links</h2>
-        <p class="section-description">Link of the week — <a href="https://habr.com/ru/post/340420">margin/padding strat</a></p>
+        <p class="section-description">Link of the week — <a class="study-link" href="https://habr.com/ru/post/340420">Margin/padding organize</a></p>
       </section>
   </main>
 
   <footer class="page-footer">
-      <div class="container">
-        <a><img src="img/logo-github.svg" alt="git-hub link"></a>
-        <a><img src="img/logo-rs_school_js_red.svg" alt="RS School course link"></a>
-      </div>
+        <a href="https://github.com/Ploytary"><img src="img/logo-github.svg" alt="git-hub link" width="70" height="69"></a>
+        <a href="https://rs.school/js-stage0/"><img src="img/logo-rs_school_js_red.svg" alt="RS School course link" width="auto" height="69"></a>
   </footer>
 </body>
 </html>
